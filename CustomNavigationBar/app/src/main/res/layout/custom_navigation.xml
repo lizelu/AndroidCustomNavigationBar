@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#cccccc">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20pt"
+        android:background="@drawable/background">
+        <ImageView
+            android:id="@+id/back_title"
+            android:layout_width="wrap_content"
+            android:layout_height="18pt"
+            android:layout_gravity="center"
+            android:src="@drawable/back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="8pt"
+            android:text="返回"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="50pt"
+        android:layout_height="20pt"
+        android:layout_gravity="center_vertical"
+        android:alpha="0" />
+
+    <TextView
+        android:id="@+id/navigation_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:layout_gravity="center"
+        android:text="标题"/>
+
+    <Button
+        android:id="@+id/call_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="接口回调测试"/>
+</FrameLayout>
